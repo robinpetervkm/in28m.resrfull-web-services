@@ -10,9 +10,6 @@ public class User {
 	
 	private Date brithDate;
 	
-	protected User () {
-		
-	}
 
 	public User(Integer id, String name, Date brithDate) {
 		super();
