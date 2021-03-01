@@ -21,5 +21,10 @@ public class UserResource {
 	
 	//GET /users/{id}
 	//retrieveUser(int id)
+	public User retrieveUser(int id) {
+		return service.findOne(id);
+	}
+	
+	
 
 }
