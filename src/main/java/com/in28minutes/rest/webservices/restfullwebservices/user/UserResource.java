@@ -12,6 +12,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
+import com.in28minutes.rest.webservices.restfullwebservices.user.User;
+import com.in28minutes.rest.webservices.restfullwebservices.user.UserDaoService;
+
 @RestController
 public class UserResource {
 	
