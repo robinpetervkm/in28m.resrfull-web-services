@@ -27,12 +27,7 @@ public class RestfullWebServicesApplication {
 		localeResolver.setDefaultLocale(Locale.US);
 		return localeResolver;
 	}
-	//--ResourceBundleMessageSource
-	@Bean
-	public ResourceBundleMessageSource messageSource() {
-		ResourceBundleMessageSource messageSource = new ResourceBundleMessageSource();
-		messageSource.setBasename("messages");
-		return messageSource;
-	}
+	
+	
 	
 }
