@@ -22,7 +22,7 @@ public class FilteringController {
 				.filterOutAllExcept("field1","field2");
 		
 		FilterProvider filterProvider = new  SimpleFilterProvider()
-				.addFilter("SomeBean", filter);
+				.addFilter("SomeBeanFilter", filter);
 		
 		MappingJacksonValue mappingJacksonValue = new MappingJacksonValue(someBean);
 		mappingJacksonValue.setFilters(filterProvider);

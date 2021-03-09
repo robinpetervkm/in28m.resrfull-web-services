@@ -1,6 +1,8 @@
 package com.in28minutes.rest.webservices.restfullwebservices.filter;
 
+import com.fasterxml.jackson.annotation.JsonFilter;
 
+@JsonFilter("SomeBeanFilter")
 public class SomeBean {
 	private String field1;
 	private String field2;
