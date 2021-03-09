@@ -1,8 +1,11 @@
 package com.in28minutes.rest.webservices.restfullwebservices.filter;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 public class SomeBean {
 	private String field1;
 	private String field2;
+	@JsonIgnore
 	private String field3;
 	
 	
