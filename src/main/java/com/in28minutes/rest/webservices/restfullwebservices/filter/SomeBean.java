@@ -1,12 +1,10 @@
 package com.in28minutes.rest.webservices.restfullwebservices.filter;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
-
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+@JsonIgnoreProperties(value = "field2")
 public class SomeBean {
 	private String field1;
-	@JsonIgnore
 	private String field2;
-	@JsonIgnore
 	private String field3;
 	
 	
